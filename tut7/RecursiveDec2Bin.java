@@ -8,14 +8,14 @@ public class RecursiveDec2Bin {
         int decimal = inp.nextInt();
         inp.close();
 
-        String binary = DectoBin(decimal);
-        System.out.print("Binary: " + binary);
+        System.out.print(String.format("Binary: %s", toBin(decimal)));
     }
-    public static String DectoBin(int decimal){
+
+    public static String toBin(int decimal){
         if (decimal == 0)   return "0";
         else if (decimal == 1)  return "1";
         else {
-            return DectoBin(decimal / 2) + (decimal % 2);   // recursion
+            return toBin(decimal / 2) + (decimal % 2);   // recursion
         }
     }
 }
