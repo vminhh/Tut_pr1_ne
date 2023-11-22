@@ -2,7 +2,7 @@ package Class.tut7;
 import java.util.*;
 
 public class PasswordChecker{
-    public static void main (String[] args){
+    public static void main(String[] args){
         Scanner inp = new Scanner (System.in);
         System.out.print("Enter a new password: ");
         String pass = inp.nextLine();

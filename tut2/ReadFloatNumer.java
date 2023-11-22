@@ -2,9 +2,7 @@ package Class.tut2;
 import java.util.*;
 
 public class ReadFloatNumer {
-    
     public static void main (String [] agrs){
-
         Scanner inp = new Scanner(System.in);
         float n = inp.nextFloat();
         inp.close();
@@ -37,5 +35,4 @@ public class ReadFloatNumer {
         }
         System.out.printf("A %s number.", result);
         } 
-       
-    }
+}

@@ -43,13 +43,16 @@ public class PlayWithString {
     public static boolean isUppercase(char c){
         return c >= 'A' && c <= 'Z';
     }
+
     public static char isLowercase(char c){
         if (isUppercase(c)) return (char)(c-32);
         else    return c;
     }
+
     public static boolean isLetter(char c){
         return isUppercase(c) || (c >= 'a' && c <= 'z');
     }
+
     public static boolean isVowel(char c){
         c = isLowercase(c);
         return c == 'e' || c == 'u' || c == 'o' || c == 'a' || c == 'i' ;

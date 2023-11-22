@@ -2,7 +2,6 @@ package Class.tut5;
 import java.util.*;
 
 public class FloatArrayInspect{
-
     public static void main (String[] args){
         double[] values = getValues();
         calculateSum(values, 0);
@@ -25,17 +24,17 @@ public class FloatArrayInspect{
         return values;
     }
 
-    static double calculateSum(double[] values, int index){
+    public static double calculateSum(double[] values, int index){
         if (index < values.length)
             return values[index] + calculateSum(values, index+1);
         else return 0;
     }
 
-    static double calculateAverage(double[] values){
+    public static double calculateAverage(double[] values){
         return calculateSum(values, 0) / values.length;
     }
     
-    static double findSmallest(double[] values){
+    public static double findSmallest(double[] values){
         double min = values[0];
         for (double index:values){
             if (index < min)    min = index;

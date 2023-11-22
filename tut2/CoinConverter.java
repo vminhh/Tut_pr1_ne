@@ -2,9 +2,7 @@ package Class.tut2;
 import java.util.*;
 
 public class CoinConverter {
-    
     public static void main(String[] args){
-        
         Scanner inp = new Scanner(System.in);
         int x = inp.nextInt();
         inp.close();
