@@ -1,10 +1,11 @@
+package Class.tut4;
 import java.util.*;
 
 public class Solve {
     public static void main(String[] args) {
         try (Scanner inp = new Scanner(System.in)) {
             long n = inp.nextLong();
-            System.out.println(isPrime(n) ?"YES" :"NO");
+            System.out.println( isPrime(n) ?"It is a prime number." :"It is not a prime number." );
         }
     }
 
