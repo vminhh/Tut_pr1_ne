@@ -1,0 +1,10 @@
+Create a text file which contains several English paragraph and fill it with some content that you can find.
+In the file, there should be words that a duplicated. Write a program to read the content of this text file and prints out a vocabulary of all the words in the text, without duplicates.
+Your program should be case-insensitive, which means the two strings "Hello" and "hello" should be considered the same word.
+Hint
+You should use String.split() method to split the text content into words.
+You should also convert everything into lowercase (or uppercase) to make your program case-insensitive.
+Utilize the properties of the Set data structure to create a list with unique items.
+Java has a few implements of Set, which are HashSet, TreeSet and LinkedHashSet.
+Deliverable
+BuildVocabulary.java
