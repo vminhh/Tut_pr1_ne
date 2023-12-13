@@ -1,7 +1,5 @@
 package Class.tut11;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.*;
 
 public class EngVieDictionary {
@@ -22,8 +20,10 @@ public class EngVieDictionary {
             System.out.print("Do youwants to look up another word (1 for yes, 2 for no): ");
             choice = inp.nextInt();
             inp.nextLine();
-            inp.close();
+            
         }while(choice == 1);
+
+        inp.close();
     }
 
     private static void initializeDictionary (Map<String, String> dictionary){

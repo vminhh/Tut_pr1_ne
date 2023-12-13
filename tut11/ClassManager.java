@@ -34,8 +34,10 @@ public class ClassManager {
                     System.out.println("Invalid choice!!!");
                     break;
             }
-            inp.close();
+
         }while(choice != 3);
+
+        inp.close();
     }
 
     private static void addStudent (Map<String, List<String>> classMap, Scanner inp){
