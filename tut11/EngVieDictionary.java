@@ -19,6 +19,7 @@ public class EngVieDictionary {
 
             System.out.print("Do youwants to look up another word (1 for yes, 2 for no): ");
             choice = inp.nextInt();
+            //choice = readInt(inp);
             inp.nextLine();
             
         }while(choice == 1);
@@ -32,4 +33,11 @@ public class EngVieDictionary {
         dictionary.put("two", "hai");
         dictionary.put("java", "thứ đang giết chết bạn");
     }
+    /*private static int readInt(Scanner inp) {
+        while (!inp.hasNextInt()) {
+            System.out.println("Invalid input. Please enter a number.");
+            inp.nextLine();
+        }
+        return inp.nextInt();
+    }*/
 }
