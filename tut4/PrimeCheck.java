@@ -1,7 +1,7 @@
 package Class.tut4;
 import java.util.*;
 
-public class Solve {
+public class PrimeCheck {
     public static void main(String[] args) {
         try (Scanner inp = new Scanner(System.in)) {
             long n = inp.nextLong();
